@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+// COLORS
+:root {
+    --color-default: #0a0d13;
+    --color-primary: #B09842;
+    --color-secondary: #111111;
+}
+
+// FONTS 
+
+:root {
+    --font-primary: "Montserrat", sans-serif;
+}
+
+// BUTTONS
+
+.btn-primario {
+    padding: 5px 10px;
+    background-color: var(--color-secondary);
+    color: white;
+    
+}
+
+// SEPARADORES
+
+.separador {
+    height: 15px;
+}
+
+// SECTIONS
+
+
+
+.darkSection {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+
+
+// NAVBAR
+
+.navbar-dark{
+    background-color: black!important;
+}
+
+.logo-navbar {
+    max-width: 100px;
+}
+
+.active {
+    border-bottom: solid 3px white;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item:hover {
+    border-bottom: solid 1px white;
+}
+
+
+
+// CAROUSEL
+
+.carousel-inner {
+    max-width: 1920px;
+    max-height: 950px;
+}
+
+// SERVICIOS
+
+.contenedorServicios {
+    min-height: 500px;
+}
+
+.content {
+    position: absolute;
+    margin-top: -35px;
+    left: 50%;
+    top: 50%;
+      transform: translate(-50%, -50%);
+    
+    p {
+      margin: 0 0 20px;
+    }
+    
+ }
+  
+#more-arrows {
+    width: 75px;
+    height: 65px;
+    
+    &:hover {
+      
+      polygon {
+        fill: #FFF;
+        transition: all .2s ease-out;
+  
+        &.arrow-bottom {
+          transform: translateY(-18px);
+        }
+  
+        &.arrow-top {
+          transform: translateY(18px);
+        }
+        
+      }
+    
+    }
+    
+}
+  
+polygon {
+    fill: #FFF;
+    transition: all .2s ease-out;
+      
+    &.arrow-middle {
+        opacity: 0.75;
+      }
+  
+      &.arrow-top {
+        opacity: 0.5
+      }
+       
+}
+
+.descripcionServicio {
+    font-family: var(--font-primary);
+    font-weight: 100;
+}
+
+.cardServicios {
+    padding: 10px;
+}
+
+// GALERÍA
+
+.tlt-galeria {
+    color: white;
+}
+
+// CONTACTO
+
+.hr-c{
+    color: black;
+    width: 75px;
+}
+
+.form-control {
+    color: white;
+    border: none;
+    border-bottom: solid 1px white;
+    border-radius: 0;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.form-control:active {
+    color: white;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.form-input{
+    border: none;
+    border-bottom: solid 1px white;
+    border-radius: 0;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    padding-left: 0px;
+}
+
+.form-input:active{
+    color: white;
+    box-shadow: none!important;
+}
+
+.form-input:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.form-input:focus-visible {
+    outline: -webkit-focus-ring-color 0px;
+    border-bottom: solid 1px white!important;
+    padding-left: 0px!important;
+}
+
+.btnContacto:hover {
+    background-color: white;
+    color: var(--color-secondary);
+    border: solid 1px transparent;
+}
+
+.btnContacto {
+    padding: 6px 30px;
+    background-color: var(--color-secondary);
+    color: white;
+    border: solid 1px white;
+    box-shadow: none;
+}
+
+.btnContactar {
+    padding: 6px 30px;
+    background-color: white;
+    border: solid 1px black;
+    color: #0a0d13;
+    text-decoration: none;
+}
+
+.btnContactar:hover{
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}
+
+// FOOTER
+
+.footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
